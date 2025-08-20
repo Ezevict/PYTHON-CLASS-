@@ -1,5 +1,5 @@
 def get_directions():
-    print("Welcome to Aptech Navigation Assistant ")
+    print("Welcome")
     
     # Get user's name
     name = input("Please enter your name: ")

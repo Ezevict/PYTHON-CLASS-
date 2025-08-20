@@ -1,5 +1,5 @@
 def find_greater_number():
-    print("🔢 Let's find out which number is greater!")
+    print("Let's find out which number is greater!")
 
     try:
         # Get two numbers from the user
@@ -17,5 +17,4 @@ def find_greater_number():
     except ValueError:
         print("Please enter valid numbers only!")
 
-# Run the program
 find_greater_number()

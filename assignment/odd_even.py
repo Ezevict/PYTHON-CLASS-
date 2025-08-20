@@ -1,4 +1,4 @@
-def odd_or_even_game():
+def odd_or_even():
     print("Welcome to the Odd or Even Game!")
     
     # Ask the user for a number
@@ -14,4 +14,4 @@ def odd_or_even_game():
     except ValueError:
         print("Oops! That doesn't look like a valid number. Please enter a whole number.")
 
-odd_or_even_game()
+odd_or_even()
