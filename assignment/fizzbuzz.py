@@ -1,8 +1,12 @@
-for i in range(1, 31):
-    output = ""
-    if i % 3 == 0:
-        output += "fizz"
-    if i % 5 == 0:
-        output += "buzz"
-    print(output or i)
+num = 1
+end_num = 30
 
+while num <= end_num:
+    if num % 3 == 0:
+        print("fizz")
+    elif num % 5 == 0:
+        print("buzz")
+    else:
+        print(num)
+
+    num = num + 1            
