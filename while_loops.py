@@ -7,7 +7,9 @@
 
 
 x = 13
-while (x < 36):
-    if(x % 2)
-    print(f"{x} is even")
+while x < 36:
+    if x % 2 == 0 :
+        print(f"{x} is even")
+    else:
+        print(x)    
     x = x + 1
